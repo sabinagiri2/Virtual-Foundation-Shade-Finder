@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('/static/frontpage.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* meaning the image will stay in the same position even when the user scrolls the page*/
+    background-position: center;
+    background-size: cover; /*This ensures that no blank spaces are left around the image, even if the aspect ratio of the image and the screen don't perfectly match*/
+}
+
+h1 {
+    font-family: Candara Light;  
+    font-size: 4.5em; /* Adjust font size */
+    color: #0e0e0e; /* Dark color for text */
+    letter-spacing: 0.1em; /* Add some spacing between letters */
+    text-align: center;
+}
+
+.cursive-text {
+    font-family: 'Dancing Script', Segoe Script; /* Cursive font for "my" */
+    color: #f28b82; /* Pinkish color for the cursive text */
+
+    font-size: 1em; /* Make the cursive text smaller */
+    font-style: italic; /* Give it a cursive look */
+    letter-spacing: 0; /* Normal letter spacing */
+}
+
+
+.centered-text {
+    align-items: center;
+    width: 70%; /* Adjust width as needed */
+    padding: 20px;
+   /* background-color: transparent;*/ 
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    margin-left: 200px;
+    margin-top: 100px;
+    text-align: center;
+    color: rgb(26, 36, 36);
+    font-family: 'Times New Roman';
+    border: 0.5px solid #ddd;
+    border-radius: 20px; /* Makes the container rounded */
+    box-shadow: 10px 10px 20px rgba(5, 5, 5, 5); /* Right and bottom shadow */
+}
+
+
+.button-container {
+    text-align: center;
+}
+
+.center-button {
+    margin-top: 50px;
+    display: inline-block;
+    padding: 20px 50px; /* Adjust padding to match the size */
+    font-size: 16px; /* Adjust font size */
+    font-weight: bold; /* Make the text bold */
+    text-align: center;
+    color: #2D2D2D; /* Dark text color */
+    background-color: #F8A399; /* Light coral background color */
+   /* border: none; */
+    border-radius: 10px; /* Rounder corners */
+    text-decoration: none;  /*removes the line under the link*/
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    width: 20%;
+}
+
+.center-button:hover {
+    background-color: #e83814; /* Slightly lighter hover color */
+}
+

@@ -1,0 +1,137 @@
+body {
+    background-image: url('/static/frontpage.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+}
+
+h1 {
+    font-family: Candara Light;
+    font-size: 4.5em; /* Adjust font size */
+    letter-spacing: 0.1em; /* Add some spacing between letters */
+margin-bottom: 30px;
+text-align: center;
+color: black;
+}
+
+.guidelines-container {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 70%; /* Adjust width as needed */
+    padding: 20px;
+    /*background-color: transparent;*/
+}
+
+.guidelines-container h2 {
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.guidelines-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.guidelines-container li {
+    margin: 10px 0;
+}
+
+input[type="file"] {
+   margin-top: 20px;
+   margin-left: 520px;
+ margin-bottom: 20px;
+        display: block;
+        opacity: 1; /* Make it visible */
+        
+    }
+
+  
+
+  
+
+.part-btn {
+    
+    background-color: lightgray; /*Default color */
+    border: none;
+    padding: 10px;
+     cursor: pointer;  
+     margin-left: 580px;
+     margin-right:10px;
+     
+     
+}
+
+.part-btn.active {
+    background-color: blue;
+    color: white;
+}
+
+button{
+    background-color: lightgray; /* Default color */
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top:10px;
+    
+
+}
+
+button:hover {
+    background-color:brown;
+}
+
+
+#canvas {
+
+    border-radius: 10px; /* Optional: Add rounded corners */
+    
+    
+    display: block;
+    margin: 0 auto; /* Center horizontally */
+    position: relative; /* To position the upload icon */
+}
+
+/* Add a container for the canvas and upload icon */
+.canvas-container {
+    margin: 0 auto; /* Center horizontally */
+    margin-top: 10px;
+    border: 2px dotted;
+  margin-left: 520px;
+    position: relative;
+    display: inline-block;
+    background-color: rgb(242, 195, 195);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+#image {
+    max-width: auto ;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+    
+}
+
+.center-button {
+    margin-top: 20px;
+    margin-left: 600px;
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;  /* Remove underline  */
+    color:black;
+    background-color: #F8A399; 
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; 
+    /* Smooth transition for hover effect  */
+}
+.center-button:hover {
+    background-color: #e83814;
+}  
+
+

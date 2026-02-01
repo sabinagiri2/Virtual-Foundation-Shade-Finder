@@ -1,0 +1,132 @@
+body {
+    background-image: url('/static/result.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+}
+h1{
+    margin-top: 30px;
+    font-size: 5em;
+    margin-bottom: 30px;
+    text-align: center;
+    color:#fff;
+    font-family: Candara Light;
+}
+/* Ensure the body has some margin and padding */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the result container */
+#result-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for headings */
+h1, h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+/* Padding for paragraphs and lists */
+#result-container p, #result-container ul {
+    padding: 10px 0;
+}
+
+/* Style for the list of foundation suggestions */
+#foundation-suggestions {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style for each foundation suggestion item */
+#foundation-suggestions li {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Style for the image */
+#foundation-suggestions img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the text content next to the image */
+#foundation-suggestions li div {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Space between image and text */
+}
+
+/* Text content beside the image */
+#foundation-suggestions li div div {
+    flex: 1; /* Ensure the text takes up the remaining space */
+}
+
+
+
+
+/* Style for centering the container */
+.button-container {
+    display: flex; /* Use flexbox to align items */
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    padding: 20px; /* Full viewport height to center vertically */
+}
+
+/* Add styles for the home button */
+.button-home {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #F8A399;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.button-home:hover {
+    background-color: #e83814;
+}
+
+
+/* Footer Styles */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
